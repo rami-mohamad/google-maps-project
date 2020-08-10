@@ -1,0 +1,24 @@
+{
+  "name": "google-maps-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rami-mohamad/google-maps-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rami-mohamad/google-maps-project/issues"
+  },
+  "homepage": "https://github.com/rami-mohamad/google-maps-project#readme",
+  "dependencies": {
+    "eslint": "^7.6.0",
+    "live-server": "^1.2.1",
+    "normalize": "^0.3.1"
+  }
+}
