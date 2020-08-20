@@ -1,2 +1,75 @@
 
 
+#googleMap {
+    height: 30vh;
+    width: 80vw;
+    position: fixed;
+    margin: 20px auto;
+    top: 50px; 
+}
+body {
+    padding: 0;
+    margin: 0;
+    /* height: 100vh;
+    width: 100vw; */
+    /* overflow: hidden; */
+    color: #000;
+    background: url('/image/philipp-deus-lEZ4J7qIQdA-unsplash.jpg') center center fixed;
+    background-size: cover;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.display-4{
+    text-align: center;
+    color: rgb(110, 44, 0);
+}
+.lead{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.jumbotron {
+    background-color: transparent;
+    padding: 30px;
+}
+.form-group{
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    /* font-family: sans-serif; */
+    font-size: 20px;
+}
+.btn{
+    /* font-weight: bolder; */
+    font-family: sans-serif;
+}
+.submit{
+    margin: 0 auto;
+}
+#distanceResult{
+    padding-top: 20px;
+    border-radius: 1%;
+    opacity: 0.8;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    right: 80px;
+    color: #000;
+    line-height: 70px;
+}
+#weatherResult{
+    opacity: 0.8;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    margin: -22px;
+} 
+#distanceNoResult{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px auto;
+
+}
