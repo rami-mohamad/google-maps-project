@@ -89,7 +89,7 @@ form.addEventListener("click", (e) => {
 const apiKey = "3afa5bab088848409b0195958201808";
 let url;
 function getWeather() {
-  url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input2.value}`;
+  url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input2.value}`;
   fetch(url)
     .then((res) => {
       return res.json();
