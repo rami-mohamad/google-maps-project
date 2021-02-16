@@ -8,5 +8,5 @@
 
 # Technologies:
 
-Google-map-api     Weather-api    Javascript       Bootstrap        Css3         Html5 
+# Google-map-api     Weather-api    Javascript       Bootstrap        Css3         Html5 
 
